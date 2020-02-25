@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   # Require at least 1.1.7 of the SessionFetcher for some changes in that
   # project's headers.
-  s.dependency 'GTMSessionFetcher', '>= 1.1.7'
+  # s.dependency 'GTMSessionFetcher', '>= 1.1.7'
 
   s.subspec 'Core' do |sp|
     sp.source_files = 'Source/GTLRDefines.h',
